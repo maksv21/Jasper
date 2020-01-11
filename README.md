@@ -12,5 +12,6 @@ Demo: https://maksv21.github.io/Jasper/
   <li class="list-group-item">The engine for rendering pages over products, for example detailed information</li>  
 </ul>
 
+<br>
 <p>Used library: https://fusejs.io/</p>
 <p>Images taken from https://www.freepik.com/</p>
