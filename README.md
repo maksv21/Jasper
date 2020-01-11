@@ -15,4 +15,4 @@ Demo: https://maksv21.github.io/Jasper/
 <br>
 <p>Used library: https://fusejs.io/</p>
 <p>Images taken from https://www.freepik.com/</p>
-<p>Icons taken from https://material.io/resources/icons//</p>
+<p>Icons taken from https://material.io/resources/icons/</p>
