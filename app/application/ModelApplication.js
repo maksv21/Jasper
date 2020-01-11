@@ -1,7 +1,7 @@
 export class ModelApplication {
   _productsDatabaseLinks = {
-    'en': 'https://maksv21.github.io/softserve/demo2/database/animals_en.json',
-    'ru': 'https://maksv21.github.io/softserve/demo2/database/animals_ru.json',
+    'en': 'https://maksv21.github.io/Jasper/database/animals_en.json',
+    'ru': 'https://maksv21.github.io/Jasper/database/animals_ru.json',
   };
   _settingsTemplate = {
     lang: 'en',
