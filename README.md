@@ -1,4 +1,10 @@
 # Jasper
 Jasper Online Pet Shop
 
-Demp: maksv21.github.io/Jasper
+Demo: https://maksv21.github.io/Jasper/
+
+Main features:
+Rendering a goods</li>
+Multilingual support</li>
+Cart and checkout</li>
+The engine for rendering pages over products, for example detailed information
