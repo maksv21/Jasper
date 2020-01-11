@@ -1,5 +1,5 @@
 # Jasper🐈
-Jasper Online Pet Shop
+Online Pet Shop
 
 Demo: https://maksv21.github.io/Jasper/
 
