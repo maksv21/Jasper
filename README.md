@@ -1,5 +1,5 @@
 # Jasper🐈
-Online Pet Shop
+Online Pet Shop on Bootstrap
 
 Demo: https://maksv21.github.io/Jasper/
 
@@ -11,3 +11,6 @@ Demo: https://maksv21.github.io/Jasper/
   <li class="list-group-item">Cart and checkout</li>
   <li class="list-group-item">The engine for rendering pages over products, for example detailed information</li>  
 </ul>
+
+Used library: https://fusejs.io/
+Images taken from https://www.freepik.com/
