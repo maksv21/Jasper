@@ -1,6 +1,6 @@
 # Jasper🐈
 Online Pet Shop on Bootstrap
-Currently works only in Chrome
+<br>Currently works only in Chrome
 
 Demo: https://maksv21.github.io/Jasper/
 
