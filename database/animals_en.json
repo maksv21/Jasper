@@ -6,11 +6,11 @@
 "gender": "male",
 "weight": 4,
 "birth_date": 1275339600000,
-"color": "white-brown",
+"color": "White, Brown",
 "breed": "Norwegian Forest cat",
 "is_sterile": true,
 "hair": "long",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/101.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/6.jpg"
 },
 {
 "id": 302,
@@ -19,11 +19,11 @@
 "gender": "female",
 "weight": 3,
 "birth_date": 1422741600000,
-"color": "black-white",
+"color": "Black, White",
 "breed": "Himalayan cat",
 "is_sterile": false,
 "hair": "short",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/102.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/7.jpg"
 },
 {
 "id": 303,
@@ -32,10 +32,10 @@
 "gender": "male",
 "weight": 2,
 "birth_date": 1469998800000,
-"color": "gray",
+"color": "Gray",
 "breed": "Scottish Fold",
 "hair": "medium",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/103.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/8.jpg"
 },
 {
 "id": 304,
@@ -44,11 +44,11 @@
 "gender": "female",
 "weight": 0.5,
 "birth_date": 1464728400000,
-"color": "gray",
+"color": "Gray",
 "breed": "Scottish Fold",
 "is_sterile": false,
 "hair": "short",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/104.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/9.jpg"
 },
 {
 "id": 305,
@@ -57,11 +57,11 @@
 "gender": "female",
 "weight": 4,
 "birth_date": 1309467600000,
-"color": "white-gray",
+"color": "White, Gray",
 "breed": "Egyptian Mau",
 "is_sterile": false,
 "hair": "middle",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/105.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/6.jpg"
 },
 {
 "id": 306,
@@ -70,11 +70,11 @@
 "gender": "male",
 "weight": 1,
 "birth_date": 1527800400000,
-"color": "black-white",
+"color": "Black, White",
 "breed": "Egyptian Mau",
 "is_sterile": true,
 "hair": "middle",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/106.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/7.jpg"
 },
 {
 "id": 307,
@@ -83,11 +83,11 @@
 "gender": "male",
 "weight": 0.5,
 "birth_date": 1548972000000,
-"color": "gray",
+"color": "Gray",
 "breed": "Scottish Fold",
 "is_sterile": true,
 "hair": "short",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/107.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/8.jpg"
 },
 {
 "id": 308,
@@ -96,11 +96,11 @@
 "gender": "male",
 "weight": 6,
 "birth_date": 1401570000000,
-"color": "white",
+"color": "White",
 "breed": "Egyptian Mau",
 "is_sterile": true,
 "hair": "long",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/108.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/9.jpg"
 },
 {
 "id": 309,
@@ -109,11 +109,11 @@
 "gender": "male",
 "weight": 5,
 "birth_date": 1398891600000,
-"color": "gray",
+"color": "Gray",
 "breed": "Egyptian Mau",
 "is_sterile": true,
 "hair": "middle",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/109.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/6.jpg"
 },
 {
 "id": 310,
@@ -122,11 +122,11 @@
 "gender": "female",
 "weight": 4,
 "birth_date": 1401570000000,
-"color": "black-brown",
+"color": "Black, Brown",
 "breed": "Egyptian Mau",
 "is_sterile": false,
 "hair": "long",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/110.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/7.jpg"
 },
 {
 "id": 311,
@@ -135,10 +135,10 @@
 "gender": "female",
 "weight": 6,
 "birth_date": 1370034000000,
-"color": "black",
+"color": "Black",
 "breed": "Afador",
 "hair": "short",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/111.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/3.jpg"
 },
 {
 "id": 312,
@@ -147,10 +147,10 @@
 "gender": "female",
 "weight": 7,
 "birth_date": 1306875600000,
-"color": "black",
+"color": "Black",
 "breed": "Afador",
 "hair": "long",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/112.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/4.jpg"
 },
 {
 "id": 313,
@@ -159,10 +159,10 @@
 "gender": "male",
 "weight": 8,
 "birth_date": 1270069200000,
-"color": "brown",
+"color": "Brown",
 "breed": "Plott",
 "hair": "middle",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/113.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/5.jpg"
 },
 {
 "id": 314,
@@ -171,10 +171,10 @@
 "gender": "male",
 "weight": 4,
 "birth_date": 1370034000000,
-"color": "white-brown",
+"color": "White, Brown",
 "breed": "Beagle",
 "hair": "short",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/114.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/3.jpg"
 },
 {
 "id": 315,
@@ -183,10 +183,10 @@
 "gender": "female",
 "weight": 10,
 "birth_date": 1275339600000,
-"color": "white-brown-black",
+"color": "White, Brown, Black",
 "breed": "Beagle",
 "hair": "long",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/115.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/4.jpg"
 },
 {
 "id": 316,
@@ -195,10 +195,10 @@
 "gender": "female",
 "weight": 20,
 "birth_date": 1433106000000,
-"color": "brown",
+"color": "Brown",
 "breed": "Plott",
 "hair": "middle",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/116.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/5.jpg"
 },
 {
 "id": 317,
@@ -207,10 +207,10 @@
 "gender": "male",
 "weight": 1,
 "birth_date": 1275339600000,
-"color": "white-black",
+"color": "White, Black",
 "breed": "Afador",
 "hair": "long",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/117.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/3.jpg"
 },
 {
 "id": 318,
@@ -219,10 +219,10 @@
 "gender": "male",
 "weight": 7,
 "birth_date": 1488319200000,
-"color": "brown",
+"color": "Brown",
 "breed": "Plott",
 "hair": "middle",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/118.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/4.jpg"
 },
 {
 "id": 319,
@@ -231,10 +231,10 @@
 "gender": "male",
 "weight": 9.1,
 "birth_date": 1527800400000,
-"color": "white-brown-black",
+"color": "White, Brown, Black",
 "breed": "Beagle",
 "hair": "long",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/119.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/5.jpg"
 },
 {
 "id": 320,
@@ -243,10 +243,10 @@
 "gender": "female",
 "weight": 4,
 "birth_date": 1401570000000,
-"color": "white-brown-black",
+"color": "White, Brown, Black",
 "breed": "Beagle",
 "hair": "short",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/120.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/3.jpg"
 },
 {
 "id": 321,
@@ -255,11 +255,11 @@
 "gender": "male",
 "weight": 300,
 "birth_date": 1275339600000,
-"color": "green",
+"color": "Green",
 "breed": "Amazon parrot",
 "type": "waterflow",
 "activity": "day",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/121.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/2.jpg"
 },
 {
 "id": 322,
@@ -268,11 +268,11 @@
 "gender": "female",
 "weight": 0.02,
 "birth_date": 1338498000000,
-"color": "black-white",
-"breed": "Black-throated Sparrow",
-"type": "predator",
+"color": "Black, White",
+"breed": "Black, throated Sparrow",
+"type": "pRedator",
 "activity": "day",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/122.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/1.jpg"
 },
 {
 "id": 323,
@@ -281,11 +281,11 @@
 "gender": "female",
 "weight": 0.5,
 "birth_date": 1264975200000,
-"color": "green",
+"color": "Green",
 "breed": "Amazon parrot",
 "type": "chicken",
 "activity": "day",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/123.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/2.jpg"
 },
 {
 "id": 324,
@@ -294,11 +294,11 @@
 "gender": "female",
 "weight": 0.08,
 "birth_date": 1306875600000,
-"color": "green",
+"color": "Green",
 "breed": "Amazon parrot",
 "type": "waterflow",
 "activity": "day",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/124.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/1.jpg"
 },
 {
 "id": 325,
@@ -307,11 +307,11 @@
 "gender": "female",
 "weight": 0.6,
 "birth_date": 1338498000000,
-"color": "black-white",
-"breed": "Black-throated Sparrow",
-"type": "predator",
+"color": "Black, White",
+"breed": "Black, throated Sparrow",
+"type": "pRedator",
 "activity": "night",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/125.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/2.jpg"
 },
 {
 "id": 326,
@@ -320,11 +320,11 @@
 "gender": "male",
 "weight": 0.1,
 "birth_date": 1362088800000,
-"color": "green",
+"color": "Green",
 "breed": "Amazon parrot",
 "type": "chicken",
 "activity": "day",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/126.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/1.jpg"
 },
 {
 "id": 327,
@@ -333,11 +333,11 @@
 "gender": "male",
 "weight": 0.4,
 "birth_date": 1275339600000,
-"color": "brown",
+"color": "Brown",
 "breed": "Brown Noddy",
 "type": "waterflow",
 "activity": "day",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/127.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/2.jpg"
 },
 {
 "id": 328,
@@ -346,11 +346,11 @@
 "gender": "female",
 "weight": 0.87,
 "birth_date": 1401570000000,
-"color": "brown",
+"color": "Brown",
 "breed": "Brown Noddy",
 "type": "waterflow",
 "activity": "day",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/128.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/1.jpg"
 },
 {
 "id": 329,
@@ -359,11 +359,11 @@
 "gender": "male",
 "weight": 0.08,
 "birth_date": 1275339600000,
-"color": "brown",
+"color": "Brown",
 "breed": "Brown Noddy",
 "type": "waterflow",
 "activity": "day",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/129.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/2.jpg"
 },
 {
 "id": 330,
@@ -372,11 +372,11 @@
 "gender": "male",
 "weight": 0.04,
 "birth_date": 1433106000000,
-"color": "green",
+"color": "Green",
 "breed": "Amazon parrot",
 "type": "waterflow",
 "activity": "day",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/130.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/1.jpg"
 },
 {
 "id": 331,
@@ -385,11 +385,11 @@
 "gender": "male",
 "weight": 1.1,
 "birth_date": 1275339600000,
-"color": "orange-white",
+"color": "Orange, White",
 "breed": "Koi",
-"water_type": "limnetic",
+"water_type": "Limnetic",
 "temper": "peaceful",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/131.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/10.jpg"
 },
 {
 "id": 332,
@@ -398,11 +398,11 @@
 "gender": "female",
 "weight": 0.505,
 "birth_date": 1272661200000,
-"color": "red",
+"color": "Red",
 "breed": "Fantail",
-"water_type": "limnetic",
+"water_type": "Limnetic",
 "temper": "peaceful",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/132.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/10.jpg"
 },
 {
 "id": 333,
@@ -411,11 +411,11 @@
 "gender": "male",
 "weight": 0.146,
 "birth_date": 1464728400000,
-"color": "orange",
+"color": "Orange",
 "breed": "Fantail",
-"water_type": "limnetic",
+"water_type": "Limnetic",
 "temper": "peaceful",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/133.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/10.jpg"
 },
 {
 "id": 334,
@@ -424,11 +424,11 @@
 "gender": "female",
 "weight": 0.42,
 "birth_date": 1433106000000,
-"color": "orange-white",
+"color": "Orange, White",
 "breed": "Comet",
-"water_type": "limnetic",
+"water_type": "Limnetic",
 "temper": "peaceful",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/134.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/10.jpg"
 },
 {
 "id": 335,
@@ -437,11 +437,11 @@
 "gender": "male",
 "weight": 0.101,
 "birth_date": 1275339600000,
-"color": "red-black-white",
+"color": "Red, Black, White",
 "breed": "Koi",
-"water_type": "limnetic",
+"water_type": "Limnetic",
 "temper": "peaceful",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/135.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/10.jpg"
 },
 {
 "id": 336,
@@ -450,11 +450,11 @@
 "gender": "female",
 "weight": 0.1,
 "birth_date": 1280610000000,
-"color": "yellow",
+"color": "Yellow",
 "breed": "Comet",
-"water_type": "limnetic",
+"water_type": "Limnetic",
 "temper": "peaceful",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/136.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/10.jpg"
 },
 {
 "id": 337,
@@ -463,11 +463,11 @@
 "gender": "male",
 "weight": 0.2,
 "birth_date": 1338498000000,
-"color": "red",
+"color": "Red",
 "breed": "Fantail",
 "water_type": "brackish",
 "temper": "peaceful",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/137.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/10.jpg"
 },
 {
 "id": 338,
@@ -476,11 +476,11 @@
 "gender": "male",
 "weight": 0.3,
 "birth_date": 1306875600000,
-"color": "white-orange",
+"color": "White, Orange",
 "breed": "Comet",
-"water_type": "limnetic",
+"water_type": "Limnetic",
 "temper": "peaceful",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/138.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/10.jpg"
 },
 {
 "id": 339,
@@ -489,11 +489,11 @@
 "gender": "male",
 "weight": 0.3,
 "birth_date": 1338498000000,
-"color": "white",
+"color": "White",
 "breed": "Koi",
-"water_type": "limnetic",
+"water_type": "Limnetic",
 "temper": "peaceful",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/139.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/10.jpg"
 },
 {
 "id": 340,
@@ -502,10 +502,10 @@
 "gender": "female",
 "weight": 0.3,
 "birth_date": 1401570000000,
-"color": "white-orange",
+"color": "White, Orange",
 "breed": "Koi",
 "water_type": "brackish",
 "temper": "peaceful",
-"img": "https://maksv21.github.io/softserve/demo2/imgs/140.jpg"
+"img": "https://maksv21.github.io/Jasper/database/img/big/10.jpg"
 }
 ]
