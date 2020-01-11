@@ -27,7 +27,7 @@ export class TemplateNonemptyCart {
     `
   }
 
-  getProduct({image, title, price, id}) {
+  getProduct({image_small, title, price, id}) {
     return `
     <div class="cart-item collapse show mt-2" data-id="${id}">
       <div class="card">
@@ -35,7 +35,7 @@ export class TemplateNonemptyCart {
           <i class="remove-btn material-icons text-btn" data-toggle="collapse" data-target=".cart-item[data-id='${id}'"
            aria-expanded="false" aria-controls="collapseExample">remove_circle</i>
           <div class="cart-item-img-container mx-3">
-            <object data="${image}" type="image/png" class="cart-item-img product-picture open-product-btn">
+            <object data="${image_small}" type="image/png" class="cart-item-img product-picture open-product-btn">
               <img src="app/graphics/no_image.jpg" class="cart-item-img product-picture open-product-btn" 
               alt="${this._local.get('pet_picture')}">
             </object>

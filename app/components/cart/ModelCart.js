@@ -14,8 +14,7 @@ export class ModelCart {
       price += productObj.price;
 
       return {
-        image: (productObj.breed === 'persikus' || productObj.breed === 'подворотики')
-          ? 'https://maksv21.github.io/softserve/demo2/imgs/persik.jpg' : productObj.image,
+        image_small: productObj.img_small,
         title: this._formatter.formatName(productObj.breed),
         price: '$' + productObj.price.toFixed(2),
         id: productObj.id

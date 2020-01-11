@@ -3,15 +3,16 @@ import {Localizer} from "../share/Localizer.js";
 export class TemplateProductDetails {
   _local = new Localizer();
 
-  getTemplateProductDetails({image, price}) {
+  getTemplateProductDetails({image_small, price, copyright}) {
     return `
     <div class="detailed-info-content px-4">
       <div class="d-flex align-items-between">
         <div class="detailed-info-product-picture-container">
-          <object data="${image}" type="image/png" class="product-picture">
+          <object data="${image_small}" type="image/png" class="product-picture">
             <img src="app/graphics/no_image.jpg" class="product-picture" 
             alt="${this._local.get('pet_picture')}">
           </object>
+          ${copyright}
         </div>
         
         <div class="d-flex align-items-center flex-column w-100 px-5">

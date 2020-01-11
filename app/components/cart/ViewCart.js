@@ -1,12 +1,14 @@
 import {TemplateCartSkeleton} from "./TemplateCartSkeleton.js";
 import {TemplateEmptyCart} from "./TemplateEmptyCart.js";
 import {TemplateNonemptyCart} from "./TemplateNonemptyCart.js";
+import {Helper} from "../share/Helper.js";
 
 export class ViewCart {
   _skeletonTemplate = new TemplateCartSkeleton();
   _nonemptyTemplate = new TemplateNonemptyCart();
   _emptyTemplate = new TemplateEmptyCart();
   cartStatus;
+  _helper = new Helper();
 
   constructor() {
     document.body.insertAdjacentHTML('beforeend', this._skeletonTemplate.getCartSkeleton());
@@ -14,7 +16,7 @@ export class ViewCart {
   }
 
   renderEmptyCart() {
-    this._loadEmptyCartImg(() => {
+    this._helper._loadImg('app/graphics/empty_cart.jpg', () => {
       this.container.innerHTML = this._emptyTemplate.getEmptyCart();
       this._showCart();
     });
@@ -48,7 +50,7 @@ export class ViewCart {
 
   makeCartEmpty() {
     if(this.container) {
-      this._loadEmptyCartImg(() => {
+      this._helper._loadImg('app/graphics/empty_cart.jpg', () => {
         this.container.innerHTML = this._emptyTemplate.getEmptyCart();
         const image = this.container.querySelector('.empty-cart-image');
         image.classList.add('anim-in');
@@ -81,21 +83,5 @@ export class ViewCart {
 
   isCartVisible() {
     return $('.cart-container').is(':visible');
-  }
-
-  _loadEmptyCartImg(func) {
-    // remove blinking
-    if(this._emptyCartImgLoaded !== true) {
-      const img = document.createElement('img');
-      img.src = 'app/graphics/empty_cart.jpg';
-      document.body.style.cursor = 'wait';
-      img.onload = () => {
-        document.body.style.cursor = null;
-        this._emptyCartImgLoaded = true;
-        func();
-      };
-    } else {
-      func();
-    }
   }
 }

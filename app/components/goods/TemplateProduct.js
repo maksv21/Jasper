@@ -20,4 +20,14 @@ export class TemplateProduct {
       </div>
     </div>`
   }
+
+  getEnd() {
+    // FIXME: workaround for one size for cards; it fills free space after cards
+    return `
+    <div class="card product-card flex-fill" style="opacity: 0"></div>
+    <div class="card product-card flex-fill" style="opacity: 0"></div>
+    <div class="card product-card flex-fill" style="opacity: 0"></div>
+    <div class="card product-card flex-fill" style="opacity: 0"></div>
+    `
+  }
 }

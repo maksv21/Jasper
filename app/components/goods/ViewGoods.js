@@ -21,7 +21,6 @@ export class ViewGoods {
     } else {
       this._renderGoods(goodsArray, onloadFunc)
     }
-
   }
 
   _renderGoods(goodsArray, onloadFunc) {
@@ -29,12 +28,7 @@ export class ViewGoods {
     this._productsContainer.innerHTML = goodsArray.map(item => this._template.getProductTemplate(item)).join('');
 
     // FIXME: workaround for one size for cards; it fills free space after cards
-    this._productsContainer.insertAdjacentHTML('beforeend', `
-<div class="card product-card flex-fill" style="opacity: 0"></div>
-<div class="card product-card flex-fill" style="opacity: 0"></div>
-<div class="card product-card flex-fill" style="opacity: 0"></div>
-<div class="card product-card flex-fill" style="opacity: 0"></div>
-`);
+    this._productsContainer.insertAdjacentHTML('beforeend', this._template.getEnd());
 
     this._productsContainer.addEventListener('animationend', () => {
       this._productsContainer.classList.remove('anim-in');

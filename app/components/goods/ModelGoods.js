@@ -25,7 +25,7 @@ export class ModelGoods {
 
     return goodsArray.slice(start, end).map(product => {
       return {
-        imgSrc: product.image,
+        imgSrc: product.img_small,
         title: this._formatter.formatName(product.breed),
         price: `$${product.price}`,
         option1: this._local.get(product.gender.toLowerCase()),

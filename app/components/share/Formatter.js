@@ -84,8 +84,4 @@ export class Formatter {
   _format(value, name) {
     return value + ' ' + this._local.get(name, value);
   }
-
-  formatColor(value) {
-    return value.split('-').map(item => this._local.get(item)).join(', ');
-  }
 }

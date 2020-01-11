@@ -1,17 +1,15 @@
 import {TemplateProductDetails} from "./TemplateProductDetails.js";
 import {TemplatePicture} from "./TemplatePicture.js";
+import {Helper} from "../share/Helper.js";
 
 export class ViewProductDetails {
-  constructor() {
-    this._template = new TemplateProductDetails();
-    this._pictureTemplate = new TemplatePicture();
-    this._container = document.querySelector('.detailed-info');
-    this._productsContainer = document.querySelector('.products');
-  }
+  _template = new TemplateProductDetails();
+  _pictureTemplate = new TemplatePicture();
+  _container = document.querySelector('.detailed-info');
+  _productsContainer = document.querySelector('.products');
+  _helper = new Helper();
 
   getProductDetailsPage({productObj, infoArr}) {
-    this._productImageUrl = productObj.image;
-
     const tempContainer = document.createElement('div');
     tempContainer.innerHTML = this._template.getTemplateProductDetails(productObj);
 
@@ -31,7 +29,7 @@ export class ViewProductDetails {
 
   renderBuyBtn(inCart) {
     this._container.querySelectorAll('.buy-btn').forEach(item => {
-      if(inCart) {
+      if (inCart) {
         item.innerHTML = this._template.getAlreadyInCart();
         item.classList.remove('btn-success');
         item.classList.add('btn-light');
@@ -54,20 +52,24 @@ export class ViewProductDetails {
     this._productsContainer.classList.remove('anim-out');
     this._productsContainer.classList.remove('hidden');
 
-    if(scroll) {document.documentElement.scrollTo({top: scroll, behavior: "smooth"});}
+    if (scroll) {
+      document.documentElement.scrollTo({top: scroll, behavior: "smooth"});
+    }
   }
 
-  renderProductPicture() {
-    const modalBody = this._container.querySelector('.modal-body');
-    modalBody.innerHTML = this._pictureTemplate.getPictureTemplate(this._productImageUrl);
-    $('.product-picture-modal').modal();
+  renderProductPicture(imgUrl) {
+    this._helper._loadImg(imgUrl, () => {
+      const modalBody = this._container.querySelector('.modal-body');
+      modalBody.innerHTML = this._pictureTemplate.getPictureTemplate(imgUrl);
+      $('.product-picture-modal').modal();
 
-    this._container.querySelector('.open-big-picture-btn').addEventListener('click',
-      () => window.open(this._productImageUrl))
+      this._container.querySelector('.open-big-picture-btn').addEventListener('click',
+        () => window.open(imgUrl));
+    })
   }
 
   hideProductPicture(func) {
-    if($('.product-picture-modal').is(':visible')) {
+    if ($('.product-picture-modal').is(':visible')) {
       $('.product-picture-modal').modal('hide').one('hidden.bs.modal', func);
     } else {
       func();

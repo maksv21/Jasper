@@ -309,7 +309,7 @@ body {
 }
 
 .product-picture {
-  height: 100%;
+  height: 95%; /* 5% for freepic info */
   width: 100%;
   object-fit: contain;
 }

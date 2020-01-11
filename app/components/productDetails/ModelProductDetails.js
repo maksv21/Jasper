@@ -13,8 +13,10 @@ export class ModelProductDetails {
   prepareProductObj(productObj) {
     return {
       title: this._formatter.formatName(productObj.breed),
-      image: productObj.image,
+      image: productObj.img,
+      image_small: productObj.img_small,
       price: '$' + productObj.price,
+      copyright: productObj.copyright,
     }
   }
 
@@ -29,7 +31,7 @@ export class ModelProductDetails {
 
       'birth_date': (item) => [this._local.get('age'), this._formatter.formatAge(productObj[item])],
 
-      'color': (item) => [this._local.get(item), this._formatter.formatColor(productObj[item])],
+      'color': basicFunc,
 
       'breed': (item) => [this._local.get(item), this._formatter.formatName(productObj[item])],
 

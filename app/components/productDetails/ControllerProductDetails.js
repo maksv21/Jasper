@@ -36,7 +36,7 @@ export class ControllerProductDetails {
 
       this._view.addListeners({
         container,
-        imgEvent: this._view.renderProductPicture.bind(this._view),
+        imgEvent: this._view.renderProductPicture.bind(this._view, productObj.image),
         buyEvent: this._onClickBuy.bind(this, productId),
       });
     };

@@ -13,7 +13,7 @@ onmessage = msg => {
   msg.data.forEach(product => {
     usedFilters.forEach(filterObj => {
       if (filterObj.filter === 'color') {
-        product[filterObj.filter].split('-')
+        product[filterObj.filter].split(', ')
           .forEach(color => filterObj.set.add(color));
       } else if (product[filterObj.filter]) {
         filterObj.set.add(String(product[filterObj.filter]));
@@ -25,7 +25,7 @@ onmessage = msg => {
   maxPrice = Math.ceil(maxPrice);
 
   postMessage({
-    arr: usedFilters.filter(item => item.set.size !== 0),
+    arr: usedFilters.filter(item => item.set.size > 1),
     maxPrice,
   });
 };

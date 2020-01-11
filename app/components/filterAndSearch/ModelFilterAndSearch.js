@@ -1,9 +1,20 @@
+import {Localizer} from "../share/Localizer.js";
+
 export class ModelFilterAndSearch {
+  _local = new Localizer();
   constructor() {
     this._productsArr = JSON.parse(sessionStorage.getItem('jasper_products'));
     const altLang = JSON.parse(sessionStorage.getItem('jasper_products_alt_lang'));
 
-    this._productsArr.forEach((item, index) => item.altBreed = altLang[index].breed);
+    this._productsArr.forEach((item, index) => {
+      item.altLang = {
+        species: this._local.get(altLang[index].species + '_category'),
+        breed: altLang[index].breed,
+        color: altLang[index].color,
+      }
+
+    });
+    console.log(this._productsArr)
   }
 
   isThereSuchProduct(id) {
@@ -24,7 +35,7 @@ export class ModelFilterAndSearch {
       distance: 100,
       maxPatternLength: 32,
       minMatchCharLength: 1,
-      keys: ['breed', 'altBreed', 'species', 'color'],
+      keys: ['breed', 'species', 'color', 'altLang.species', 'altLang.breed', 'altLang.color'],
     };
 
     const fuse = new Fuse(arr, options);
