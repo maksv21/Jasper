@@ -1,7 +1,6 @@
 import {TemplateHeader} from "./TemplateHeader.js";
 import {TemplateFooter} from "./TemplateFooter.js";
 import {Localizer} from "../share/Localizer.js";
-import {TemplatePage} from "./TemplatePage.js";
 
 export class ViewHeader {
   _local = new Localizer();
@@ -38,9 +37,5 @@ export class ViewHeader {
 
   focusSearch() {
     this._container.querySelector('.search-input').focus();
-  }
-
-  getPageTemplate() {
-    return new TemplatePage().getPage();
   }
 }

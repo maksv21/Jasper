@@ -80,4 +80,15 @@ export class TemplateCheckout {
     </div>
     `
   }
+
+  getError(msg) {
+    return `
+    <div class="main-elem-anim d-flex align-items-center justify-content-center h-100 w-100">
+      <span class="d-flex align-items-center h-100">
+        <h5 class="pl-1">${this._local.get('order_error')}: </h5>
+        <span class="pl-1">${msg}</span>
+      </span>
+    </div>
+    `
+  }
 }

@@ -33,7 +33,11 @@ export class ViewCheckout {
     this._container.addEventListener('input', func);
   }
 
-  renderComplitedPage(orderId) {
+  renderCompletedPage(orderId) {
     this._container.innerHTML = this._templateCheckout.getSuccess(orderId);
+  }
+
+  renderErrorPage(msg) {
+    this._container.innerHTML = this._templateCheckout.getError(msg);
   }
 }

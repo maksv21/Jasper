@@ -23,6 +23,7 @@ export class ControllerPageRenderer {
     let backBtnFunc = null;
     if (this._currentPage) {
       this._view.scrollTop();
+      if(this._currentPage.afterCloseFunc) { this._currentPage.afterCloseFunc(); }
 
       this._backData.push(this._currentPage);
       backBtnFunc = () => {
@@ -30,6 +31,8 @@ export class ControllerPageRenderer {
         const backData = this._backData.pop();
         this._renderPage(backData);
         this._currentPage = backData;
+
+        if(backData) { backData.afterLoadFunc() }
       };
     } else {
       this._firstScroll = this._view.getScroll();

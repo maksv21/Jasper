@@ -17,6 +17,7 @@ export class ModelProductDetails {
       image_small: productObj.img_small,
       price: '$' + productObj.price,
       copyright: productObj.copyright,
+      id: productObj.id,
     }
   }
 

@@ -39,10 +39,15 @@ export class ControllerCheckout {
 
     const orderId = this._model.generateOrderId();
     const message = this._model.prepareMessage(event.target, orderId, orderData);
-    console.log(message);
-    this._model.sendMessage(message);
-    this._view.renderComplitedPage(orderId);
-    this._model.clearCart();
+    this._model.sendMessage(message).then(result => {
+      if(result.ok) {
+        this._view.renderCompletedPage(orderId);
+        this._model.clearCart();
+      } else {
+        this._view.renderErrorPage(result.statusText);
+      }
+    });
+
   }
 
   _onInput(e) {

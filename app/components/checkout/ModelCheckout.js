@@ -49,8 +49,8 @@ ${this._local.get('msg_item_price')}: ${item.price}
   }
 
   sendMessage(msg) {
-    let chat_id = localStorage.getItem('chat_id');
-    chat_id = chat_id ? chat_id : '-377489566';
+    let chat_id = prompt('Add @orders2telegramBot bot to chat and enter chat id without letters\nFor groups add "-" at begin, for channel add "-100"');
+
     return fetch(`https://api.telegram.org/bot1008500080:AAFwcLw8I_1HQHx2e7LmDVW9-LQV1CFJ3D0/sendMessage?chat_id=${chat_id}&parse_mode=Markdown&text=` + encodeURIComponent(msg));
   }
 

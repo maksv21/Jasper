@@ -8,7 +8,7 @@ export class TemplateApplication {
           <div class="sorting-container"></div>
         </div>
         <div class="max-width-container">
-          <div class="detailed-info"></div>
+          <div class="pages"></div>
           <div class="d-flex justify-content-start products">
             <div class="filters-container"></div>
             <main class="d-flex flex-column w-100">

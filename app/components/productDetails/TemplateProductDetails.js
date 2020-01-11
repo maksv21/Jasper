@@ -8,10 +8,9 @@ export class TemplateProductDetails {
     <div class="detailed-info-content px-4">
       <div class="d-flex align-items-between">
         <div class="detailed-info-product-picture-container">
-          <object data="${image_small}" type="image/png" class="product-picture">
-            <img src="app/graphics/no_image.jpg" class="product-picture" 
-            alt="${this._local.get('pet_picture')}">
-          </object>
+            <img src="${image_small}" class="product-picture" 
+            alt="${this._local.get('pet_picture')}"
+            onerror="this.onerror=null;this.src='app/graphics/no_image.jpg';">
           ${copyright}
         </div>
         
@@ -20,7 +19,7 @@ export class TemplateProductDetails {
             <div class="card-body">
               <h3>${price}</h3>
               <div class="d-flex align-items-center">
-                <button class="btn btn-success btn-lg buy-btn"></button>
+                <button class="btn btn-lg buy-btn"></button>
               </div>
             </div>
           </div>

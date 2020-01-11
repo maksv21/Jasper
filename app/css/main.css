@@ -296,7 +296,7 @@ body {
 }
 
 .product-card-text, .product-picture {
-  cursor: pointer;
+  color: #000000;
 }
 .product-card {
   width: 240px;
@@ -322,11 +322,11 @@ body {
   text-decoration: underline;
 }
 
-.detailed-info.anim-in {
+.pages.anim-in {
   animation: main-anim .2s;
 }
 
-.detailed-info.anim-out {
+.pages.anim-out {
   animation: main-anim .2s reverse;
   position: absolute;
   z-index: 999999;
@@ -335,7 +335,7 @@ body {
   height: 100%;
 }
 
-.detailed-info-title {
+.pages-title {
   color: #413148;
   padding: 5px 15px;
   background: #e6e0e8;

@@ -31,10 +31,9 @@ export class TemplatePicture {
   getPictureTemplate(image) {
     return `
     <div class="d-flex align-items-center flex-column">
-      <object data="${image}" type="image/png" class="w-100 detailed-info-big-picture">
-        <img src="app/graphics/no_image.jpg" class="w-100 detailed-info-big-picture" 
-        alt="${this._local.get('pet_picture')}">
-      </object>
+      <img src="${image}" class="w-100 detailed-info-big-picture" 
+        alt="${this._local.get('pet_picture')}"
+        onerror="this.onerror=null;this.src='app/graphics/no_image.jpg';">
       <button class="btn btn-link open-big-picture-btn">${this._local.get('open_big_picture')}</button>
     </div>
 `

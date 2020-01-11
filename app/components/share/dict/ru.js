@@ -1,9 +1,10 @@
 export const dict = {
   /* header */
   search: (params) => params === 'action' ? 'Искать питомца' : 'Поиск',
-  delivery: () => 'Доставка',
-  contacts: 'Контакты',
   about: 'Про проект',
+  contacts: 'Контакты',
+  delivery: 'Доставка',
+  help: 'Помощь',
   /* goods */
   years: (n) => formatCounter(n, 'лет', 'год', 'года'),
   months: (n) => formatCounter(n, 'месяцев', 'месяц', 'месяца'),

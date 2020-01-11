@@ -35,10 +35,9 @@ export class TemplateNonemptyCart {
           <i class="remove-btn material-icons text-btn" data-toggle="collapse" data-target=".cart-item[data-id='${id}'"
            aria-expanded="false" aria-controls="collapseExample">remove_circle</i>
           <div class="cart-item-img-container mx-3">
-            <object data="${image_small}" type="image/png" class="cart-item-img product-picture open-product-btn">
-              <img src="app/graphics/no_image.jpg" class="cart-item-img product-picture open-product-btn" 
-              alt="${this._local.get('pet_picture')}">
-            </object>
+            <img src="${image_small}" class="cart-item-img product-picture open-product-btn" 
+              alt="${this._local.get('pet_picture')}"
+              onerror="this.onerror=null;this.src='app/graphics/no_image.jpg';">
           </div>
           <div class="mx-3 w-100">
             <h5 class="card-title"><span class="btn-link text-btn open-product-btn">${title}</span></h5>

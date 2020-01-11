@@ -69,14 +69,13 @@ export class TemplateHeader {
           </div>
           <div class="navbar-collapse collapse flex-shrink-1 flex-grow-0 order-last" id="navbar7">
             <div class="d-flex align-items-center justify-content-start">
-
+              <input class="btn btn-link navbar-btn" type="button" data-action="about" 
+              value="${this._local.get('about')}">
               <input class="btn btn-link navbar-btn" type="button" data-action="page" 
               value="${this._local.get('delivery')}">
               <input class="btn btn-link navbar-btn" type="button" data-action="page" 
               value="${this._local.get('contacts')}">
               <input class="btn btn-link navbar-btn" type="button" data-action="page" 
-              value="${this._local.get('about')}">
-              <input class="btn btn-link navbar-btn" type="button" data-action="help" 
               value="${this._local.get('help')}">
   
               <a class="nav-link" href="javascript:;">

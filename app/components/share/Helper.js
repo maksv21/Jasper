@@ -8,6 +8,11 @@ export class Helper {
       if(func) { func(); }
     };
 
+    img.onerror = () => {
+      document.body.style.cursor = null;
+      if(func) { func(); }
+    };
+
     img.src = imgSrc;
   }
 }

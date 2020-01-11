@@ -34,13 +34,13 @@ export class ControllerFilterAndSearch {
   }
 
   _searchGoods({value, category}) {
-    this._removeAllFilters();
-
     const valueIsNumber = Number.isInteger(+value);
     const searchTitle = this._local.get('search_result') + `: "${value}" ${category !== 'all' ?
       this._local.get('in') + ' ' + this._local.get(category + '_category') : ''}`;
 
     if (!valueIsNumber) {
+      this._removeAllFilters();
+
       let filteredArr;
       if (category !== 'all') {
         filteredArr = this._model.getCategoryData(category);
@@ -59,6 +59,8 @@ export class ControllerFilterAndSearch {
     } else if (this._model.isThereSuchProduct(+value)) {
       this._notify('render-details', +value)
     } else {
+      this._removeAllFilters();
+
       this._notify('render-goods', {goodsArr: []});
       this._notify('show-title', searchTitle);
       this._notify('hide-sorting');

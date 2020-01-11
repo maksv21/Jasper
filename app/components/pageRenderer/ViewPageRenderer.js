@@ -1,7 +1,7 @@
 import {TemplatePage} from "./TemplatePage.js";
 
 export class ViewPageRenderer {
-  _container = document.querySelector('.detailed-info');
+  _container = document.querySelector('.pages');
   _productsContainer = document.querySelector('.products');
   _pageTemplate = new TemplatePage();
 

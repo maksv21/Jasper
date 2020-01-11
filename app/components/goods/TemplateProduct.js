@@ -6,16 +6,19 @@ export class TemplateProduct {
     return `
     <div class="card product-card flex-fill" data-id="${id}">
       <div class="product-picture-container">
-        <object data="${imgSrc}" type="image/png" class="card-img-top product-picture">
-          <img src="app/graphics/no_image.jpg" class="card-img-top product-picture" 
-          alt="${this._local.get('pet_picture')}">
-        </object>
+        <a href="./?product_id=${id}" onclick="return false">
+          <img src="${imgSrc}" class="card-img-top product-picture" 
+          alt="${this._local.get('pet_picture')}" 
+          onerror="this.onerror=null;this.src='app/graphics/no_image.jpg';">
+        </a>
       </div>
       <div class="card-body">
+        <a href="./?product_id=${id}" onclick="return false">
         <span class="product-card-text">
           <h6 class="card-text">${title}</h6>
           <p class="card-text"><small class="text-muted product-card-small-text">${option1} / ${option2}</small></p>
         </span>
+        </a>
         <h3 class="card-title">${price}</h3>
       </div>
     </div>`

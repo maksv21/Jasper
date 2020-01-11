@@ -14,7 +14,6 @@ export class ModelFilterAndSearch {
       }
 
     });
-    console.log(this._productsArr)
   }
 
   isThereSuchProduct(id) {

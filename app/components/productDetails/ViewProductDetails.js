@@ -5,7 +5,6 @@ import {Helper} from "../share/Helper.js";
 export class ViewProductDetails {
   _template = new TemplateProductDetails();
   _pictureTemplate = new TemplatePicture();
-  _container = document.querySelector('.detailed-info');
   _productsContainer = document.querySelector('.products');
   _helper = new Helper();
 
@@ -23,6 +22,7 @@ export class ViewProductDetails {
   }
 
   addListeners({container, imgEvent, buyEvent}) {
+    this._container = container;
     container.querySelector('.product-picture').addEventListener('click', imgEvent);
     container.querySelectorAll('.buy-btn').forEach(item => item.addEventListener('click', buyEvent));
   }
@@ -74,5 +74,12 @@ export class ViewProductDetails {
     } else {
       func();
     }
+  }
+
+  setUrl(id) {
+    let url = window.location.href;
+    url = url.replace(/\?product_id=\d*/g, '');
+    const newUrl = id ? url + '?product_id=' + id : url;
+    window.history.pushState("", "", newUrl);
   }
 }

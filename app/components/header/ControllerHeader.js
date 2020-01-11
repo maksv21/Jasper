@@ -64,12 +64,9 @@ export class ControllerHeader {
         this._view.changeSearch(target.dataset.category, target.dataset.category + '_category');
         break;
       }
-
-      case 'page': {
-        this._notify('render-page', {
-          title: target.value,
-          HTML: this._view.getPageTemplate(),
-        });
+      case 'page':
+      case 'about': {
+        this._notify('render-other-page', action);
         break;
       }
 

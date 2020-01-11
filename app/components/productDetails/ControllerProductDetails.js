@@ -28,9 +28,6 @@ export class ControllerProductDetails {
     });
 
     const afterLoadFunc = () => {
-      this._updateBuyBtn(productId);
-      this._subscribe('cart-updated', this._updateBuyBtn.bind(this, productId), {id: this});
-
       let container;
       this._notify('get-renderer-container', element => container = element);
 
@@ -39,9 +36,17 @@ export class ControllerProductDetails {
         imgEvent: this._view.renderProductPicture.bind(this._view, productObj.image),
         buyEvent: this._onClickBuy.bind(this, productId),
       });
+
+      this._updateBuyBtn(productId);
+      this._subscribe('cart-updated', this._updateBuyBtn.bind(this, productId), {id: this});
+
+      this._view.setUrl(productObj.id);
     };
 
-    const afterCloseFunc = () => this._removeSubscribe('cart-updated', null, this);
+    const afterCloseFunc = () => {
+      this._view.setUrl();
+      this._removeSubscribe('cart-updated', null, this);
+    };
 
     this._notify('render-page', {title, categoryTitle, HTML, afterLoadFunc, afterCloseFunc});
   }
