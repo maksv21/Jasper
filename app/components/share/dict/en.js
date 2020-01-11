@@ -17,7 +17,7 @@ export const dict = {
   search: 'Search',
   delivery: 'Delivery',
   contacts: 'Contacts',
-  about: 'About us',
+  about: 'About project',
   reviews: 'Reviews',
   /* goods */
   years: (n) => n === 1 ? 'year' : 'years',

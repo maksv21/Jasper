@@ -11,7 +11,8 @@
     "is_sterile": "Да",
     "hair": "Длинная",
     "img": "https://maksv21.github.io/Jasper/database/img/big/noimage.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/noimage.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/noimage.jpg",
+    "copyright": ""
   },
   {
     "id": 301,
@@ -25,7 +26,8 @@
     "is_sterile": "Да",
     "hair": "Длинная",
     "img": "https://maksv21.github.io/Jasper/database/img/big/6.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/6.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/6.jpg",
+    "copyright": "<a href='http://www.freepik.com'>Designed by freepic.diller / Freepik</a>"
   },
   {
     "id": 302,
@@ -39,7 +41,8 @@
     "is_sterile": "Нет",
     "hair": "Короткая",
     "img": "https://maksv21.github.io/Jasper/database/img/big/7.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/7.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/7.jpg",
+    "copyright": "<a href='http://www.freepik.com'>Designed by Freepik</a>"
   },
   {
     "id": 303,
@@ -52,7 +55,8 @@
     "breed": "Шотландская вислоухая",
     "hair": "Средняя",
     "img": "https://maksv21.github.io/Jasper/database/img/big/8.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/8.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/8.jpg",
+    "copyright": "<a href='http://www.freepik.com'>Designed by Freepik</a>"
   },
   {
     "id": 304,
@@ -66,7 +70,8 @@
     "is_sterile": "Нет",
     "hair": "Короткая",
     "img": "https://maksv21.github.io/Jasper/database/img/big/9.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/9.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/9.jpg",
+    "copyright": "<a href=\"http://www.freepik.com\">Designed by Freepik</a>"
   },
   {
     "id": 305,
@@ -80,7 +85,8 @@
     "is_sterile": "Нет",
     "hair": "Средняя",
     "img": "https://maksv21.github.io/Jasper/database/img/big/6.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/6.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/6.jpg",
+    "copyright": "<a href='http://www.freepik.com'>Designed by freepic.diller / Freepik</a>"
   },
   {
     "id": 306,
@@ -94,7 +100,8 @@
     "is_sterile": "Да",
     "hair": "Средняя",
     "img": "https://maksv21.github.io/Jasper/database/img/big/7.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/7.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/7.jpg",
+    "copyright": "<a href='http://www.freepik.com'>Designed by Freepik</a>"
   },
   {
     "id": 307,
@@ -108,7 +115,8 @@
     "is_sterile": "Да",
     "hair": "Короткая",
     "img": "https://maksv21.github.io/Jasper/database/img/big/8.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/8.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/8.jpg",
+    "copyright": "<a href='http://www.freepik.com'>Designed by Freepik</a>"
   },
   {
     "id": 308,
@@ -122,7 +130,8 @@
     "is_sterile": "Да",
     "hair": "Длинная",
     "img": "https://maksv21.github.io/Jasper/database/img/big/9.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/9.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/9.jpg",
+    "copyright": "<a href=\"http://www.freepik.com\">Designed by Freepik</a>"
   },
   {
     "id": 309,
@@ -136,7 +145,8 @@
     "is_sterile": "Да",
     "hair": "Средняя",
     "img": "https://maksv21.github.io/Jasper/database/img/big/6.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/6.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/6.jpg",
+    "copyright": "<a href='http://www.freepik.com'>Designed by freepic.diller / Freepik</a>"
   },
   {
     "id": 310,
@@ -150,7 +160,8 @@
     "is_sterile": "Нет",
     "hair": "Длинная",
     "img": "https://maksv21.github.io/Jasper/database/img/big/7.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/7.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/7.jpg",
+    "copyright": "<a href='http://www.freepik.com'>Designed by Freepik</a>"
   },
   {
     "id": 311,
@@ -163,7 +174,8 @@
     "breed": "Афадор",
     "hair": "Короткая",
     "img": "https://maksv21.github.io/Jasper/database/img/big/3.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/3.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/3.jpg",
+    "copyright": "<a href=\"http://www.freepik.com\">Designed by Racool_studio / Freepik</a>"
   },
   {
     "id": 312,
@@ -176,7 +188,8 @@
     "breed": "Афадор",
     "hair": "Длинная",
     "img": "https://maksv21.github.io/Jasper/database/img/big/4.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/4.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/4.jpg",
+    "copyright": "<a href='http://www.freepik.com'>Designed by efe_madrid / Freepik</a>"
   },
   {
     "id": 313,
@@ -189,7 +202,8 @@
     "breed": "Плоттхаунд",
     "hair": "Средняя",
     "img": "https://maksv21.github.io/Jasper/database/img/big/5.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/5.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/5.jpg",
+    "copyright": "<a href='http://www.freepik.com'>Designed by rawpixel.com / Freepik</a>"
   },
   {
     "id": 314,
@@ -202,7 +216,8 @@
     "breed": "Бигль",
     "hair": "Короткая",
     "img": "https://maksv21.github.io/Jasper/database/img/big/3.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/3.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/3.jpg",
+    "copyright": "<a href=\"http://www.freepik.com\">Designed by Racool_studio / Freepik</a>"
   },
   {
     "id": 315,
@@ -215,7 +230,8 @@
     "breed": "Бигль",
     "hair": "Длинная",
     "img": "https://maksv21.github.io/Jasper/database/img/big/4.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/4.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/4.jpg",
+    "copyright": "<a href='http://www.freepik.com'>Designed by efe_madrid / Freepik</a>"
   },
   {
     "id": 316,
@@ -228,7 +244,8 @@
     "breed": "Плоттхаунд",
     "hair": "Средняя",
     "img": "https://maksv21.github.io/Jasper/database/img/big/5.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/5.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/5.jpg",
+    "copyright": "<a href='http://www.freepik.com'>Designed by rawpixel.com / Freepik</a>"
   },
   {
     "id": 317,
@@ -241,7 +258,8 @@
     "breed": "Афадор",
     "hair": "Длинная",
     "img": "https://maksv21.github.io/Jasper/database/img/big/3.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/3.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/3.jpg",
+    "copyright": "<a href=\"http://www.freepik.com\">Designed by Racool_studio / Freepik</a>"
   },
   {
     "id": 318,
@@ -254,7 +272,8 @@
     "breed": "Плоттхаунд",
     "hair": "Средняя",
     "img": "https://maksv21.github.io/Jasper/database/img/big/4.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/4.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/4.jpg",
+    "copyright": "<a href='http://www.freepik.com'>Designed by efe_madrid / Freepik</a>"
   },
   {
     "id": 319,
@@ -267,7 +286,8 @@
     "breed": "Бигль",
     "hair": "Длинная",
     "img": "https://maksv21.github.io/Jasper/database/img/big/5.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/5.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/5.jpg",
+    "copyright": "<a href='http://www.freepik.com'>Designed by rawpixel.com / Freepik</a>"
   },
   {
     "id": 320,
@@ -280,7 +300,8 @@
     "breed": "Бигль",
     "hair": "Короткая",
     "img": "https://maksv21.github.io/Jasper/database/img/big/3.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/3.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/3.jpg",
+    "copyright": "<a href=\"http://www.freepik.com\">Designed by Racool_studio / Freepik</a>"
   },
   {
     "id": 321,
@@ -294,7 +315,8 @@
     "type": "Водоплавающие",
     "activity": "Дневная",
     "img": "https://maksv21.github.io/Jasper/database/img/big/2.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/2.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/2.jpg",
+    "copyright": "<a href=\"http://www.freepik.com\">Designed by Ilovehz / Freepik</a>"
   },
   {
     "id": 322,
@@ -308,7 +330,8 @@
     "type": "Охотники",
     "activity": "Дневная",
     "img": "https://maksv21.github.io/Jasper/database/img/big/1.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/1.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/1.jpg",
+    "copyright": "<a href=\"http://www.freepik.com\">Designed by Montypeter / Freepik</a>"
   },
   {
     "id": 323,
@@ -322,7 +345,8 @@
     "type": "Куроподобные",
     "activity": "Дневная",
     "img": "https://maksv21.github.io/Jasper/database/img/big/2.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/2.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/2.jpg",
+    "copyright": "<a href=\"http://www.freepik.com\">Designed by Ilovehz / Freepik</a>"
   },
   {
     "id": 324,
@@ -336,7 +360,8 @@
     "type": "Водоплавающие",
     "activity": "Дневная",
     "img": "https://maksv21.github.io/Jasper/database/img/big/1.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/1.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/1.jpg",
+    "copyright": "<a href=\"http://www.freepik.com\">Designed by Montypeter / Freepik</a>"
   },
   {
     "id": 325,
@@ -350,7 +375,8 @@
     "type": "Охотники",
     "activity": "Ночная",
     "img": "https://maksv21.github.io/Jasper/database/img/big/2.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/2.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/2.jpg",
+    "copyright": "<a href=\"http://www.freepik.com\">Designed by Ilovehz / Freepik</a>"
   },
   {
     "id": 326,
@@ -364,7 +390,8 @@
     "type": "Куроподобные",
     "activity": "Дневная",
     "img": "https://maksv21.github.io/Jasper/database/img/big/1.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/1.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/1.jpg",
+    "copyright": "<a href=\"http://www.freepik.com\">Designed by Montypeter / Freepik</a>"
   },
   {
     "id": 327,
@@ -378,7 +405,8 @@
     "type": "Водоплавающие",
     "activity": "Дневная",
     "img": "https://maksv21.github.io/Jasper/database/img/big/2.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/2.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/2.jpg",
+    "copyright": "<a href=\"http://www.freepik.com\">Designed by Ilovehz / Freepik</a>"
   },
   {
     "id": 328,
@@ -392,7 +420,8 @@
     "type": "Водоплавающие",
     "activity": "Дневная",
     "img": "https://maksv21.github.io/Jasper/database/img/big/1.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/1.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/1.jpg",
+    "copyright": "<a href=\"http://www.freepik.com\">Designed by Montypeter / Freepik</a>"
   },
   {
     "id": 329,
@@ -406,7 +435,8 @@
     "type": "Водоплавающие",
     "activity": "Дневная",
     "img": "https://maksv21.github.io/Jasper/database/img/big/2.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/2.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/2.jpg",
+    "copyright": "<a href=\"http://www.freepik.com\">Designed by Ilovehz / Freepik</a>"
   },
   {
     "id": 330,
@@ -420,7 +450,8 @@
     "type": "Водоплавающие",
     "activity": "Дневная",
     "img": "https://maksv21.github.io/Jasper/database/img/big/10.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/10.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/10.jpg",
+    "copyright": "<a href='http://www.freepik.com'>Designed by Freepik</a>"
   },
   {
     "id": 331,
@@ -434,7 +465,8 @@
     "water_type": "Пресноводный",
     "temper": "Мирный",
     "img": "https://maksv21.github.io/Jasper/database/img/big/10.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/10.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/10.jpg",
+    "copyright": "<a href='http://www.freepik.com'>Designed by Freepik</a>"
   },
   {
     "id": 332,
@@ -448,7 +480,8 @@
     "water_type": "Пресноводный",
     "temper": "Мирный",
     "img": "https://maksv21.github.io/Jasper/database/img/big/10.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/10.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/10.jpg",
+    "copyright": "<a href='http://www.freepik.com'>Designed by Freepik</a>"
   },
   {
     "id": 333,
@@ -462,7 +495,8 @@
     "water_type": "Пресноводный",
     "temper": "Мирный",
     "img": "https://maksv21.github.io/Jasper/database/img/big/10.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/10.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/10.jpg",
+    "copyright": "<a href='http://www.freepik.com'>Designed by Freepik</a>"
   },
   {
     "id": 334,
@@ -476,7 +510,8 @@
     "water_type": "Пресноводный",
     "temper": "Мирный",
     "img": "https://maksv21.github.io/Jasper/database/img/big/10.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/10.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/10.jpg",
+    "copyright": "<a href='http://www.freepik.com'>Designed by Freepik</a>"
   },
   {
     "id": 335,
@@ -490,7 +525,8 @@
     "water_type": "Пресноводный",
     "temper": "Мирный",
     "img": "https://maksv21.github.io/Jasper/database/img/big/10.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/10.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/10.jpg",
+    "copyright": "<a href='http://www.freepik.com'>Designed by Freepik</a>"
   },
   {
     "id": 336,
@@ -504,7 +540,8 @@
     "water_type": "Пресноводный",
     "temper": "Мирный",
     "img": "https://maksv21.github.io/Jasper/database/img/big/10.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/10.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/10.jpg",
+    "copyright": "<a href='http://www.freepik.com'>Designed by Freepik</a>"
   },
   {
     "id": 337,
@@ -518,7 +555,8 @@
     "water_type": "Солоноводный",
     "temper": "Мирный",
     "img": "https://maksv21.github.io/Jasper/database/img/big/10.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/10.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/10.jpg",
+    "copyright": "<a href='http://www.freepik.com'>Designed by Freepik</a>"
   },
   {
     "id": 338,
@@ -532,7 +570,8 @@
     "water_type": "Пресноводный",
     "temper": "Мирный",
     "img": "https://maksv21.github.io/Jasper/database/img/big/10.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/10.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/10.jpg",
+    "copyright": "<a href='http://www.freepik.com'>Designed by Freepik</a>"
   },
   {
     "id": 339,
@@ -546,7 +585,8 @@
     "water_type": "Пресноводный",
     "temper": "Мирный",
     "img": "https://maksv21.github.io/Jasper/database/img/big/10.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/10.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/10.jpg",
+    "copyright": "<a href='http://www.freepik.com'>Designed by Freepik</a>"
   },
   {
     "id": 340,
@@ -560,6 +600,7 @@
     "water_type": "Солоноводный",
     "temper": "Мирный",
     "img": "https://maksv21.github.io/Jasper/database/img/big/10.jpg",
-    "img_small": "https://maksv21.github.io/Jasper/database/img/small/10.jpg"
+    "img_small": "https://maksv21.github.io/Jasper/database/img/small/10.jpg",
+    "copyright": "<a href='http://www.freepik.com'>Designed by Freepik</a>"
   }
 ]

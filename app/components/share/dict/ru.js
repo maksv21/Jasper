@@ -3,8 +3,7 @@ export const dict = {
   search: (params) => params === 'action' ? 'Искать питомца' : 'Поиск',
   delivery: () => 'Доставка',
   contacts: 'Контакты',
-  about: 'Про нас',
-  reviews: 'Отзывы',
+  about: 'Про проект',
   /* goods */
   years: (n) => formatCounter(n, 'лет', 'год', 'года'),
   months: (n) => formatCounter(n, 'месяцев', 'месяц', 'месяца'),
