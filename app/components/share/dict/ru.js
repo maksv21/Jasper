@@ -78,7 +78,7 @@ export const dict = {
   in: 'в',
   search_result: 'Поиск',
   most_relevant: 'По релевантности',
-  hair: 'Длинна шерсти'
+  hair: 'Длина шерсти'
 };
 
 function formatCounter(n, first, second, third) {
